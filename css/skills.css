@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  /* overflow: hidden; */
+  display:block;
+  /*justify-content: center;
+  align-items: center; */
+}
+canvas {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+/* .center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} */
+.navbar-toggler-icon{
+  padding: 5px !important;
+  outline: black;
+}
+a span{
+  margin: 20px;
+  padding: 0px;
+}
+a span:link {
+  border-bottom: none;
+}
+
+a span:visited {
+  border-bottom: none;
+}
+
+a span:hover {
+  border-bottom: 1px solid #fff ;
+  padding-bottom: 3px;
+}
+
+a span:active {
+  border-bottom: 1px solid #fff ; 
+  padding-bottom: 3px;
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+ul{
+  margin: 10px;
+  padding: 10px;
+}
+li {
+  display: inline;
+  margin: 5px 20px;
+  padding: 5px 20px; 
+}
