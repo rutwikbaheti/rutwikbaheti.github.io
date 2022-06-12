@@ -44,3 +44,27 @@ a span:active {
   border-bottom: 1px solid #fff ; 
   padding-bottom: 3px;
 }
+
+.card{
+  width: 500px;
+}
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 400px;  }
+}
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 350px;  }
+}
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 300px;  }
+}
+@media only screen and (max-width: 350px) {
+  .card {
+    width: 250px;  }
+}
+@media only screen and (max-width: 300px) {
+  .card {
+    width: 200px;  }
+}
